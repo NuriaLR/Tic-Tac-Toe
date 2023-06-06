@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nuria Luengo">
+    <meta name="description" content="tic tac toe">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>TIC TAC TOE</h1>
+    </table>
+    <div class="container" id="contenedor">
+        <div class="fila">
+            <button class="casilla" onclick="pintaCasilla(0)"></button>
+            <button class="casilla" onclick="pintaCasilla(1)"></button>
+            <button class="casilla" onclick="pintaCasilla(2)"></button>
+            <button class="casilla" onclick="pintaCasilla(3)"></button>
+            <button class="casilla" onclick="pintaCasilla(4)"></button>
+            <button class="casilla" onclick="pintaCasilla(5)"></button>
+            <button class="casilla" onclick="pintaCasilla(6)"></button>
+            <button class="casilla" onclick="pintaCasilla(7)"></button>
+            <button class="casilla" onclick="pintaCasilla(8)"></button>
+        </div>
+        <div class="container2">
+            <a href="javascript:location.reload()"><button class="reiniciar">Reiniciar</button></a>
+            <div class="marcador">
+                <h2> X </h2>
+                <div>
+                    <button id="x"></button>
+                    <button id="o"></button>
+                </div>
+                <h2>O</h2>
+            </div>
+            <h2 id="ganador"></h2>
+
+        </div>
+    </div>
+
+</body>
+<script src="tictactoe.js"></script>
+
+</html>
